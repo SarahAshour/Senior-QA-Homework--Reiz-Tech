@@ -4,8 +4,8 @@ mkdir buggy-profile-test && cd buggy-profile-test
 # Step 2: Initialize a Node project
 npm init -y
 
-# Step 3: Install Playwright
-npm i -D playwright @playwright/test typescript ts-node
+# Step 3: Install Playwright and TypeScript
+npm install -D @playwright/test typescript ts-node
 
 # Step 4: Install Playwright browsers
 npx playwright install
