@@ -1,6 +1,6 @@
 Command
   npx playwright test
 To run with UI (headed mode):
-  npx playwright test --headed
+  npx playwright test tests/profileUpdate.spec.ts --headed
 To view trace/debug:
   npx playwright show-trace trace.zip
