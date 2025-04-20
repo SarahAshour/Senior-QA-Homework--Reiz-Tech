@@ -1,0 +1,9 @@
+buggy-profile-test/
+├── tests/
+│   └── profileUpdate.spec.ts
+├── pages/
+│   ├── LoginPage.ts
+│   └── ProfilePage.ts
+├── playwright.config.ts
+├── tsconfig.json
+└── package.json
