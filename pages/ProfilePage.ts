@@ -24,6 +24,6 @@ export class ProfilePage {
   }
 
   async isSuccessMessageVisible() {
-    return this.page.isVisible('text=The profile has been saved successfully'); // confirmation
+    return this.page.isVisible('The profile has been saved successfully'); // confirmation
   }
 }
